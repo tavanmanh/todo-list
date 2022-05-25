@@ -1,0 +1,48 @@
+.form-control{
+    display: flex;
+}
+#content {
+    padding: 5px;
+    height: 45px;
+    width: 400px;
+    resize: none;
+    color: black;
+}
+.form-control button{
+    height: 57px;
+    line-height: 45px;
+    border: none;
+    padding: 5px;
+    text-align: center;
+    width: 80px;
+    background: pink;
+    margin-left: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#list-task{
+    width: 600px;
+}
+#list-task h4{
+    font-size: 14px;
+    text-transform: uppercase;
+}
+#list-task ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+#list-task ul li{
+    display: flex;
+    background: #f1f1f1;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+#list-task ul li div{
+    width: 80%;
+}
+#list-task ul li a{
+    text-decoration: none;
+    margin-right: 8px;
+    color: red;
+}
